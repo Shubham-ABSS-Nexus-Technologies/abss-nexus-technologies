@@ -48,10 +48,6 @@ if [ -f "_redirects" ]; then
     esac
 
     case "$target" in
-      /.netlify/functions/*)
-        function_name="${target##*/}"
-        target_path="./netlify/functions/${function_name}.js"
-        ;;
       http*|/*)
         target_path=".${target}"
         ;;

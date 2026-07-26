@@ -93,8 +93,4 @@
 /src/admin/admin-support /src/admin/admin-support.html 200
 /src/admin/admin-pricing /src/admin/admin-pricing.html 200
 
-/api/auth/login /.netlify/functions/auth-login 200
-/api/admin/state /.netlify/functions/admin-state 200
-/api/leads/contact /.netlify/functions/contact-lead 200
-
 /* /src/pages/404.html 404
